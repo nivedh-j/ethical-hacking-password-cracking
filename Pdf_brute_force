@@ -9,3 +9,17 @@
 > This happens because the PDF is **password-protected**.  
 > The password needs to be recovered in **Stage 2** using your lab workflow.  
 > Only perform this on files you **own** for educational purposes.
+
+## 🔑 Stage 2: PDF Password Recovery  
+
+Inside the unlocked ZIP, we find `mi5hal.pdf`, which is also password-protected.  
+
+**Educational Workflow:**  
+- Use **pdfcrack** in a controlled lab environment to recover the PDF password.  
+- This demonstrates **dictionary or brute-force password recovery** techniques safely.  
+
+```text
+# Illustrative example (do not run on unauthorized files)
+'''bash
+   pdfcrack mi5hal.pdf -w <wordlist-file>
+---got the password
