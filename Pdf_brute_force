@@ -20,6 +20,8 @@ Inside the unlocked ZIP, we find `mi5hal.pdf`, which is also password-protected.
 
 ```text
 # Illustrative example (do not run on unauthorized files)
-'''bash
+
    pdfcrack mi5hal.pdf -w <wordlist-file>
+
+
 ---got the password
