@@ -1,20 +1,29 @@
-# 🔐 Ethical Hacking: Password Cracking Practice 
-Study repo for ethical hacking password recovery labs — ZIP &amp; PDF cracking using open-source tools (John the Ripper, pdfcrack, fcrackzip). For educational use only.
- 
+# 🔐 Ethical Hacking: Password Cracking Labs  
 
-Welcome to my **ethical hacking lab repository**! 🚀  
-Here, I document my journey of learning how to recover forgotten passwords from protected files in a **safe, controlled, and legal environment**.  
+This repository showcases my **ethical hacking practice** in password recovery using open-source tools.  
+The focus is on **multi-layer password cracking**: a password-protected ZIP file that contains a second protected PDF.  
 
-This project focuses on:  
-- 🗂️ **ZIP password recovery** with tools like John the Ripper,zip2john & fcrackzip  
-- 📑 **PDF password recovery** using pdfcrack (demo only, no direct commands)  
-- 🧠 Exploring **dictionary attacks, brute force attacks, and hash extraction**  
-- 🎓 Practicing cybersecurity skills for my studies in **ethical hacking**  
+💡 This project is purely for **educational purposes** on my **own test files** in a controlled lab environment.  
 
-💡 The purpose of this repo is not to “hack” random files, but to **understand security weaknesses** so that better protections can be built.  
-Think of it as learning how locks work 🔑 — not to break into houses, but to become a locksmith.  
+---
 
-⚠️ **Disclaimer:**  
-This repository is strictly for **educational purposes only**.  
-All files used are ones I created myself for lab practice.  
-❌ Never use these techniques on files you don’t own or without permission.  
+## 📂 Workflow Overview  
+
+1. 🗂️ Start with a password-protected `secret.zip`.  
+2. 🔑 Use `zip2john` + `john` to recover the ZIP password.  
+3. 📑 Inside the ZIP is another protected file: `mi5hal.pdf`.  
+4. 🧩 Use `pdfcrack` to recover the PDF password.  
+5. 🎯 Access the original data successfully.  
+
+---
+
+## ⚙️ Tools Used  
+
+- [John the Ripper](https://www.openwall.com/john/) – ZIP password recovery  
+- [fcrackzip](https://manpages.debian.org/fcrackzip) – alternative ZIP cracking  
+- [pdfcrack](http://pdfcrack.sourceforge.net/) – PDF password recovery  
+
+---
+
+## 🗂️ Repository Structure  
+
