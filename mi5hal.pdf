@@ -3,10 +3,3 @@
 Inside the unlocked ZIP, we have mi5hal.pdf, which is also password-protected.
 To recover the PDF password in a controlled lab environment:
 
-# Illustrative example (safe, educational)
-pdfcrack mi5hal.pdf
-
-
-💡 Note: Running the command in your lab will attempt to recover the PDF password.
-Once the password is found, the PDF can be opened to view the content.
-Important: Only perform this on files you own; do not attempt on unauthorized files.
