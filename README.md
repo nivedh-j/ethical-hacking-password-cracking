@@ -27,3 +27,10 @@ The focus is on **multi-layer password cracking**: a password-protected ZIP file
 
 ## 🗂️ Repository Structure  
 
+
+## ⚠️ Disclaimer  
+
+**This repository is strictly for educational purposes.**  
+All files (`secret.zip`, `mi5hal.pdf`) are **created by me for lab practice**.  
+Commands and workflows are **illustrative**, not meant to be used on unauthorized files.  
+Do **not** attempt these techniques on files you do not own or without explicit permission.
